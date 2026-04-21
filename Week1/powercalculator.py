@@ -14,4 +14,3 @@ try:
 
 except ValueError:
     print("Invalid input. PLease enter numbers only.")
-    
