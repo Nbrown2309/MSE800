@@ -39,3 +39,9 @@ Enters two numbers
 Program performs the calculation
 Repeats until user exits
 
+How to run the following program i have created: 
+
+1. Open Terminal or command prompt
+2. Navigate to the project folder
+3. Run the following file: 
+python mathsoperation.py
