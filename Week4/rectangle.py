@@ -1,5 +1,4 @@
-# rectangle.py
-
+#Creating the class for the calculations
 class RectangleLand:
 
     def __init__(self, length, width):
