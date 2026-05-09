@@ -8,7 +8,7 @@ The admin/user can add and manage customers, currencies, transactions and paymen
 The use case diagram shows how the admin/user and customer interact with the money exhchange system. the admin/user manages all system funcitons, while customers can only do view transactions The diagram shows to define the main features included with the system scope. 
 
 
-# What the systems include - 
+# What the system include - 
 - Customer Management
 - Currency Management
 - Transaction Management
