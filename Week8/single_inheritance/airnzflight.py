@@ -225,6 +225,7 @@ cargo1 = CargoFlight(
     2000  # cargo weight in kg
 )
 
+# Displaying cargo flight details
 cargo1.display_flight()
 cargo1.display_cargo()
 
