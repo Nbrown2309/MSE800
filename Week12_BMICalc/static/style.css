@@ -1,0 +1,111 @@
+/* Futuristic Cyber Theme */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(135deg, #050816, #0d1b2a, #1b263b);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    width: 430px;
+    padding: 35px;
+    border-radius: 20px;
+    background: rgba(15, 20, 40, 0.85);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(0, 255, 255, 0.3);
+    box-shadow:
+        0 0 20px rgba(0, 255, 255, 0.3),
+        0 0 40px rgba(128, 0, 255, 0.2);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 25px;
+    color: #00e5ff;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow:
+        0 0 8px #00e5ff,
+        0 0 18px #00e5ff;
+}
+
+label {
+    display: block;
+    margin-top: 18px;
+    margin-bottom: 8px;
+    text-align: left;
+    color: #7df9ff;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    background: #10182d;
+    color: white;
+    border: 2px solid #2c3e70;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: #00e5ff;
+    box-shadow: 0 0 15px #00e5ff;
+}
+
+button {
+    width: 100%;
+    margin-top: 30px;
+    padding: 14px;
+    background: linear-gradient(90deg, #00e5ff, #7b2cff);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow:
+        0 0 20px #00e5ff,
+        0 0 35px #7b2cff;
+}
+
+.result {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    background: rgba(0, 229, 255, 0.08);
+    border: 1px solid rgba(0, 229, 255, 0.4);
+    box-shadow: 0 0 20px rgba(0, 229, 255, 0.2);
+}
+
+.result h2 {
+    color: #00e5ff;
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px #00e5ff;
+}
+
+.result h3 {
+    color: #b388ff;
+    text-shadow: 0 0 10px #b388ff;
+}

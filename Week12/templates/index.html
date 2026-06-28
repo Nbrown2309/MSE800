@@ -3,40 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flask HTML Activity</title>
+    <title>Flask Image Viewer</title>
 
     <style>
-        html {
-            background-color: green;
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #e8ffe8;
+            text-align: center;
+            padding-top: 40px;
         }
 
-        body {
-            color: red;
+        h1{
+            color: darkgreen;
         }
 
-        h1 {
-            color: red;
-        }
-
-        a {
-            color: red;
+        img{
+            width: 500px;
+            border: 4px solid darkgreen;
+            border-radius: 10px;
+            margin-top: 20px;
         }
     </style>
 </head>
+
 <body>
 
-    <h1>Welcome to Flask HTML Activity</h1>
+    <h1>Flask Image Viewer</h1>
 
-    <p>
-        This webpage was created using Flask and HTML.
-    </p>
+    <p>This image is loaded from the local static folder.</p>
 
-    <p>
-        Learn more about Flask by visiting the
-        <a href="https://flask.palletsprojects.com/en/stable/quickstart/#" target="_blank">
-            HTML &amp; Flask Guide
-        </a>.
-    </p>
+    <img src="{{ url_for('static', filename='image.jpg') }}" alt="Local Image">
 
 </body>
 </html>
